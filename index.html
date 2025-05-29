@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Лр.1 ROT13 Шифратор</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <div class="panel left">
+    <div class="title">До шифрования</div>
+    <textarea id="inputText" placeholder="Введи текст сюда..."></textarea>
+  </div>
+  <div class="panel right">
+    <div class="title">После ROT13</div>
+    <textarea id="outputText" readonly></textarea>
+  </div>
+</div>
+
+<button class="btn" onclick="processText()">Зашифровать</button>
+
+<script src="script.js"></script>
+</body>
+</html>
